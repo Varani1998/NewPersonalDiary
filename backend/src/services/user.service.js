@@ -12,9 +12,6 @@ const createUsers = async ({ username, city, gender, dateofbirth, password }) =>
 
     const user = new UserModel({
       username,
-      city,
-      gender,
-      dateofbirth,
       password,
     });
 

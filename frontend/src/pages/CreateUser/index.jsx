@@ -7,9 +7,6 @@ import "react-datepicker/dist/react-datepicker.css";
 function CreateUser() {
   const [data, setData] = useState({
     username: "",
-    city: "",
-    gender: "",
-    dateofbirth: new Date(),
     password: "",
   });
 
